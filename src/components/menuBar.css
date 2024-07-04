@@ -1,0 +1,17 @@
+.menu-bar {
+    background-color: #f0f0f0; /* light gray */
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* optional, for a subtle border */
+    display: flex;
+    justify-content: space-around; /* to distribute menu items evenly */
+}
+.menu-item {
+    color: #333; /* dark gray text */
+    text-decoration: none; /* remove underline */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu-item:hover {
+    background-color: #e0e0e0; /* darker gray on hover */
+}
